@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(sunny.jpg);
+    background-size: cover;
+}
+
+.main-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px 15px;
+}
+
+::placeholder{
+    color: rgba(0,0,0,0.6);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+    color : red;
+    font-size: 32px;
+}
+header input{
+    width: 100%;
+    max-width: 300px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    color: rgba(0,0,0,0.6);
+    transition: 0.2s ease-out;
+}
+
+header input:focus{
+    background-color: rgba(255,255,255,0.6);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 25px 50px;
+}
+
+.location .city{
+    font-size: 32px;
+    color: seashell;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.date{
+    font-size: 16px;
+    color: seashell;
+    margin-bottom: 20px;
+}
+
+.information .min-temp .max-temp{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.information .temp .temps{
+    font-size: 102px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-weight: 900;
+    text-shadow: 2px 8px rgba(0,0,0,0.3);
+}
+
+.information .weather{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-weight: 900;
+    text-shadow: 2px 8px rgba(0,0,0,0.3);
+}
+
+.information span{
+    font-size: 32px;
+    color: white;
+    
+}
+
+.min-max{
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    color: white;
+    font-size: 32px;
+}
+
+
+.min-max .cel{
+    font-size: 20px;
+    color: white;
+}

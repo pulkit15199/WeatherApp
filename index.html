@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrap">
+        <div class="heading">
+            <h1>Weather App</h1>
+        </div>
+        
+        <header>
+            <input type="text" autocomplete="off" placeholder="Search City Here" class="search-box">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">New Delhi</div>
+            </section>
+            <div class="date">Wednesday, 7 April 2020</div>
+            <div class="information">
+                <div class="weather">Sunny</div>
+                <div class="temp"><span class="temps">15</span><span>°C</span></div>
+                <div class="min-max">
+                <div class="min-temp"><span>Min Temperature : </span><span id="min-temps">15</span><span class="cel">°C</span></div>
+                <div class="max-temp"><span>Max Temperature : </span><span id="max-temps">15</span><span class="cel">°C</span></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
